@@ -4,6 +4,8 @@ A captivating social deduction game of murder, mystery, and demons. Each player 
 
 5-20 players
 
+Trouble Brewing is the only edition ready at this time. 
+
 ### Usage
 
 To run the game setup script, clone the repo and in terminal enter:
@@ -30,4 +32,17 @@ investigator
 
 ```
 
-Trouble Brewing is the only edition ready at this time. 
+### Docker usage
+
+If you're experiencing issues with the .sh script on your OS you can also use the Dockerized version of the script. 
+
+
+Start with building the script container.
+
+```
+make build
+```
+
+Now run the script using:
+
+```make run```
