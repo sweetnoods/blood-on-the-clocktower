@@ -45,4 +45,6 @@ make build
 
 Now run the script using:
 
-```make run```
+```
+make run
+```
